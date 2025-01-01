@@ -21,32 +21,24 @@ Investment Calculator é uma aplicação web que permite calcular e visualizar o
 Clone este repositório:
 
 ```
-bash
-Copy code
 git clone https://github.com/seu-usuario/investment-calculator.git
 ```
 
 Navegue para o diretório do projeto:
 
 ```
-bash
-Copy code
 cd investment-calculator
 ```
 
 Instale as dependências:
 
 ```
-bash
-Copy code
 npm install
 ```
 
 Inicie o servidor de desenvolvimento:
 
 ```
-bash
-Copy code
 npm start
 ```
 
@@ -54,16 +46,15 @@ Acesse a aplicação em http://localhost:4200.
 
 ## 📖 Estrutura do Projeto
 ````plaintext
-Copy code
 src/
-├── app/                           # Diretório principal da aplicação
-│ ├── header/                  # Componente de cabeçalho
-│ ├── investment/           # Funcionalidades do cálculo de investimento
+├── app/                  # Diretório principal da aplicação
+│ ├── header/             # Componente de cabeçalho
+│ ├── investment/         # Funcionalidades do cálculo de investimento
 │ │ ├── input-form/       # Formulário de entrada para dados do investimento
-│ │ └── results/              # Exibição dos resultados do investimento
-│ └── shared/                 # Componentes compartilhados
-├── assets/                      # Arquivos estáticos da aplicação
-└── environments/          # Configurações de ambientes
+│ │ └── results/          # Exibição dos resultados do investimento
+│ └── shared/             # Componentes compartilhados
+├── assets/               # Arquivos estáticos da aplicação
+└── environments/         # Configurações de ambientes
 ````
 
 ## 🏫 Sobre o Curso
