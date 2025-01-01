@@ -1,27 +1,70 @@
-# EssentialsPractice
+<div align="center">
+  <img height="150em" length="50em" src="/public/investment-calculator-logo.png"/>
+</div>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0-next.2.
+# Investment Calculator
 
-## Development server
+Investment Calculator é uma aplicação web que permite calcular e visualizar o valor de um investimento inicial e seus rendimentos ao longo dos anos.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🛠️ Tecnologias Utilizadas
 
-## Code scaffolding
+- **Framework:** Angular
+- **Curso Base:** Desenvolvido seguindo a seção 4 do curso The Complete Guide to Angular de Maximilian Schwarzmüller.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🚀 Funcionalidades
+- Inserir o valor inicial do investimento.
+- Definir a taxa de retorno anual.
+- Visualizar o crescimento do investimento e os rendimentos acumulados ano a ano.
 
-## Build
+## 📦 Como Instalar e Executar o Projeto
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Clone este repositório:
 
-## Running unit tests
+```
+bash
+Copy code
+git clone https://github.com/seu-usuario/investment-calculator.git
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Navegue para o diretório do projeto:
 
-## Running end-to-end tests
+```
+bash
+Copy code
+cd investment-calculator
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Instale as dependências:
 
-## Further help
+```
+bash
+Copy code
+npm install
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Inicie o servidor de desenvolvimento:
+
+```
+bash
+Copy code
+npm start
+```
+
+Acesse a aplicação em http://localhost:4200.
+
+## 📖 Estrutura do Projeto
+````plaintext
+Copy code
+src/
+├── app/                           # Diretório principal da aplicação
+│ ├── header/                  # Componente de cabeçalho
+│ ├── investment/           # Funcionalidades do cálculo de investimento
+│ │ ├── input-form/       # Formulário de entrada para dados do investimento
+│ │ └── results/              # Exibição dos resultados do investimento
+│ └── shared/                 # Componentes compartilhados
+├── assets/                      # Arquivos estáticos da aplicação
+└── environments/          # Configurações de ambientes
+````
+
+## 🏫 Sobre o Curso
+Este projeto foi desenvolvido com base na seção 4 do curso The Complete Guide to Angular 2, onde conceitos de formulários e exibição de dados foram explorados.
